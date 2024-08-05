@@ -74,3 +74,10 @@
 .month {
     font-size: 17px;
 }
+
+@media (max-width: 1250px) {
+    .container {
+        flex-direction: column;
+        height: 100%;
+      }
+}
